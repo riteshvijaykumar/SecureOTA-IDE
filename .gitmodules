@@ -1,0 +1,3 @@
+[submodule "upstream/arduino-ide-2.3.9"]
+	path = upstream/arduino-ide-2.3.9
+	url = https://github.com/arduino/arduino-ide.git

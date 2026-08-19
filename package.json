@@ -1,0 +1,17 @@
+{
+  "name": "secureota-ide",
+  "private": true,
+  "version": "0.1.0",
+  "description": "SecureOTA IDE workspace scaffold",
+  "workspaces": [
+    "arduino-ide-extension",
+    "electron-app"
+  ],
+  "scripts": {
+    "build": "yarn workspaces foreach -pt run build",
+    "clean": "yarn workspaces foreach -pt run clean",
+    "lint": "yarn workspaces foreach -pt run lint",
+    "typecheck": "yarn workspaces foreach -pt run typecheck"
+  },
+  "packageManager": "yarn@1.22.22"
+}
