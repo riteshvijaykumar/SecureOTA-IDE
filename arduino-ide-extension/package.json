@@ -8,10 +8,12 @@
     "build": "tsc -p tsconfig.json",
     "clean": "rimraf lib",
     "lint": "echo \"lint not configured yet\"",
-    "typecheck": "tsc -p tsconfig.json --noEmit"
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "test": "tsc -p tsconfig.json && node --test --require reflect-metadata \"lib/test/*.test.js\""
   },
   "dependencies": {
-    "inversify": "^6.0.2"
+    "inversify": "^6.0.2",
+    "reflect-metadata": "^0.2.2"
   },
   "devDependencies": {
     "rimraf": "^6.0.1",

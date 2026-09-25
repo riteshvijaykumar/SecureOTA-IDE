@@ -8,10 +8,11 @@
     "electron-app"
   ],
   "scripts": {
-    "build": "yarn workspaces foreach -pt run build",
-    "clean": "yarn workspaces foreach -pt run clean",
-    "lint": "yarn workspaces foreach -pt run lint",
-    "typecheck": "yarn workspaces foreach -pt run typecheck"
+    "build": "yarn workspaces run build",
+    "clean": "yarn workspaces run clean",
+    "lint": "yarn workspaces run lint",
+    "typecheck": "yarn workspaces run typecheck",
+    "test": "yarn workspaces run test"
   },
   "packageManager": "yarn@1.22.22"
 }

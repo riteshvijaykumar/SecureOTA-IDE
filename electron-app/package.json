@@ -8,6 +8,7 @@
     "clean": "rimraf lib",
     "lint": "echo \"lint not configured yet\"",
     "typecheck": "tsc -p tsconfig.json --noEmit",
+    "test": "echo \"no tests in electron-app\"",
     "start": "electron ."
   },
   "dependencies": {

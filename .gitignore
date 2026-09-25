@@ -2,6 +2,7 @@ node_modules/
 dist/
 build/
 out/
+arduino-ide-extension/lib/
 coverage/
 *.log
 .DS_Store
